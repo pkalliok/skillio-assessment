@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# This is the root route
 @app.route("/")
 def root():
     return "<p>Please press <a href=poks>here</a>."
